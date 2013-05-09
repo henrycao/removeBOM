@@ -9,7 +9,8 @@ Because Unicode can be encoded as 16-bit or 32-bit integers, a computer receivin
 [BOM wiki][]
 
 ###How BOM can affect the code  
-example:  
+example: 
+
     <link type="text/css" rel="stylesheet" href="http://10.88.226.202/skin/adminhtml/default/default/reset.css" 
 this code seem like well, but if we copy the link to browser, we will see the following:  
 ![bom error][]
@@ -19,7 +20,9 @@ this code seem like well, but if we copy the link to browser, we will see the fo
 open the php script from `src/bom.php`  
 change the folder directory  
     $ php bom.php  
-then all the bom will be removed
+then all the bom will be removed  
+this script is searched from the internet, thanks to the author  
+
 
 [bom wiki]: http://en.wikipedia.org/wiki/Byte_order_mark "BOM Wiki"
 [bom error]: ./static/bom_error.png "BOM Error"
